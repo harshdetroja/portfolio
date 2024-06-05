@@ -3,23 +3,28 @@ import { Skills } from "./components/Skills";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Navbar } from "./components/Navbar";
+import { Profile } from "./components/Profile";
+
 function App() {
   return (
     <>
-      <div>
+      <div className="font-inter">
         <Navbar />
       </div>
-      <div className="fixed mx-4 top-16 max-lg:hidden">
+      <div className="fixed mx-4 top-16 max-lg:hidden font-inter">
         <Sidebar />
       </div>
-      <section className=" lg:ml-[320px] pt-14">
-        <div id="about">
+      <section className=" lg:ml-[320px] pt-14 font-inter">
+        <div>
+          <Profile />
+        </div>
+        <div id="about" className="flex justify-center items-center">
           <About />
         </div>
-        <div id="skill">
+        <div id="skill" className="flex justify-center items-center">
           <Skills />
         </div>
-        <div id="project">
+        <div id="project" className="flex justify-center items-center">
           <Projects />
         </div>
       </section>

@@ -11,6 +11,12 @@ export default {
         primaryBg: "#1c1b23",
         bodyBg: "#14131a",
       },
+      screens: {
+        xs: "425px",
+      },
+      backgroundImage: {
+        "profile-bg": "url('/src/assets/profileBg.jpg')",
+      },
     },
   },
   plugins: [],

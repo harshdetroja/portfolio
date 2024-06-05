@@ -7,14 +7,14 @@ export function ProjectCard({ data }) {
   return (
     <>
       <div
-        className="max-w-[300px] rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition ease-in-out	duration-500 "
+        className="rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition ease-in-out	duration-500 "
         onClick={handleClick}
       >
         <div className="">
           <img
             src={data.img}
             alt=""
-            className="h-40 border-b-[1px] border-bodyBg w-full"
+            className="sm:h-40 border-b-[1px] border-bodyBg w-full"
           />
         </div>
         <div className="px-4 py-6 bg-white h-32">

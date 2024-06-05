@@ -45,7 +45,7 @@ export function Navbar() {
   // );
   return (
     <>
-      <nav className=" py-4 px-10 flex justify-between items-center fixed bg-bodyBg top-0 w-screen">
+      <nav className=" py-4 px-4 xs:px-6 sm:px-8 lg:px-10 flex justify-between items-center fixed bg-bodyBg top-0 w-screen">
         <div className="flex gap-2 ">
           <div className="w-4 h-4 bg-green-400 rounded-full"></div>
           <div className="w-4 h-4 bg-green-400 rounded-full"></div>

@@ -1,15 +1,5 @@
 import { Chip } from "./Chip";
-
-const colors = [
-  "border-red-400",
-  "border-yellow-400",
-  "border-cyan-400",
-  "border-green-400",
-  "border-orange-400",
-  "border-pink-400",
-  "border-violet-400",
-  "border-lime-400",
-];
+import { colors } from "../data/data";
 
 export function SkillCard({ data }) {
   return (
