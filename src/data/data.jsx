@@ -4,6 +4,7 @@ import todoImg from "../assets/todo.png";
 import spotifyImg from "../assets/spotify.jpg";
 import expenseImg from "../assets/expense.jpg";
 import mngImg from "../assets/mng.png";
+import payImg from "../assets/paytm.jpg";
 
 export const socialsList = [
   {
@@ -361,6 +362,10 @@ export const skillsData = [
     title: "Database",
     tech: ["MongoDB", "MySQL", "PostgreSQL"],
   },
+  {
+    title: "Programming Languages",
+    tech: ["C", "C++", "Java", "Python"],
+  },
 ];
 
 export const projectData = [
@@ -375,6 +380,13 @@ export const projectData = [
     description: "React.js, Tailwind CSS.",
     img: portfolioImg,
     link: "https://github.com/harshdetroja/portfolio",
+  },
+  {
+    title: "Full-Stack Payment site",
+    description:
+      "React.js, Tailwind CSS, Express.js, Zod, Mongoose ODM, MongoDB.",
+    img: payImg,
+    link: "https://github.com/harshdetroja/fullstack-payment-site",
   },
   {
     title: "Full-Stack Todo app",
@@ -436,6 +448,36 @@ export const LinkedInIcon = (
         clip-rule="evenodd"
         d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
         fill="#8b8a91"
+      ></path>{" "}
+    </g>
+  </svg>
+);
+
+export const about =
+  "As a proficient Full Stack Developer, I bring expertise in various programming languages and frameworks. My experience spans developing dynamic and responsive web applications, managing complex databases, and integrating APIs to deliver seamless user experiences. With a keen eye for detail and a commitment to continuous learning, I am passionate about creating innovative solutions that drive efficiency and engagement. ";
+
+export const moreIcon = (
+  <svg
+    width="50px"
+    height="50px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g
+      id="SVGRepo_tracerCarrier"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    ></g>
+    <g id="SVGRepo_iconCarrier">
+      {" "}
+      <path
+        d="M14 15.6569V10M14 10H8.34315M14 10L5.63604 18.364M10.2432 20.8278C13.0904 21.3917 16.1575 20.5704 18.364 18.364C21.8787 14.8492 21.8787 9.15076 18.364 5.63604C14.8492 2.12132 9.15076 2.12132 5.63604 5.63604C3.42957 7.84251 2.60828 10.9096 3.17216 13.7568"
+        stroke="#8b8a91"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       ></path>{" "}
     </g>
   </svg>

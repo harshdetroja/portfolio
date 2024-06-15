@@ -6,7 +6,7 @@ export function Sidebar() {
     <>
       <aside
         id=""
-        className="bg-primaryBg w-[300px] h-[670px] p-4 rounded-lg flex flex-col justify-center gap-10"
+        className="bg-primaryBg w-[300px] h-[calc(100vh-80px)] p-4 rounded-lg flex flex-col justify-center gap-10"
       >
         {/* <section className="">
           <div>

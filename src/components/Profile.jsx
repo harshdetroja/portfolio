@@ -22,16 +22,14 @@ export function Profile() {
               </a>
             </div>
           </div>
-          <div className="bg-bodyBg flex items-center p-2 gap-2 h-10 rounded-md text-sm md:text-sm max-sm:hidden">
+          <a
+            className="bg-bodyBg flex items-center p-2 gap-2 h-10 rounded-md text-sm md:text-sm max-sm:hidden hover:ring-2 hover:ring-primary "
+            href="https://www.linkedin.com/in/harshd21/"
+            target="_blank"
+          >
             <span>{LinkedInIcon}</span>
-            <a
-              className="text-primary"
-              href="https://www.linkedin.com/in/harshd21/"
-              target="_blank"
-            >
-              Let's connect on LinkedIn!
-            </a>
-          </div>
+            <span className="text-primary">Let's connect on LinkedIn!</span>
+          </a>
         </div>
       </div>
     </>

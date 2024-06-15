@@ -1,18 +1,12 @@
 import { arrowIcon } from "../data/data";
-
+import { about } from "../data/data";
 export function About() {
   return (
     <>
       <div className="container p-4">
         <h1 className="text-white text-2xl font-semibold">About Me</h1>
         <div className="p-4 text-primary bg-primaryBg rounded-md my-4">
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            dolores sequi labore totam pariatur libero harum fugiat deleniti
-            similique. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Ipsam doloribus vitae magnam! Quaerat animi corrupti ipsam
-            reprehenderit ipsum laboriosam beatae enim quo eaque officia.
-          </p>
+          <p className="">{about}</p>
 
           <div className="mt-6 text-primary">
             <h4 className="text-lg">Experience:</h4>
