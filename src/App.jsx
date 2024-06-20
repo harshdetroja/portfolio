@@ -4,6 +4,7 @@ import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Navbar } from "./components/Navbar";
 import { Profile } from "./components/Profile";
+import { LeetCode } from "./components/LeetCode";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </div>
         <div id="project" className="flex justify-center items-center">
           <Projects />
+        </div>
+        <div id="leetcode" className="flex justify-center items-center">
+          <LeetCode />
         </div>
       </section>
     </>
