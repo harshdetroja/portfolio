@@ -5,6 +5,7 @@ import spotifyImg from "../assets/spotify.jpg";
 import expenseImg from "../assets/expense.jpg";
 import mngImg from "../assets/mng.png";
 import payImg from "../assets/paytm.jpg";
+import blogImg from "../assets/blog.jpg";
 
 export const socialsList = [
   {
@@ -409,7 +410,7 @@ export const skillsData = [
   },
   {
     title: "Backend",
-    tech: ["Node.js", "Express.js", "Mongoose", "Zod"],
+    tech: ["Node.js", "Express.js", "Mongoose", "Zod", "Prisma"],
   },
   {
     title: "Database",
@@ -442,11 +443,18 @@ export const projectData = [
     link: "https://github.com/harshdetroja/fullstack-payment-site",
   },
   {
+    title: "Full-Stack Blogging site",
+    description:
+      "React.js, TypeScript, Tailwind CSS, Hono, Zod, Prisma ORM, Postgres DB.",
+    img: blogImg,
+    link: "https://github.com/harshdetroja/fullstack-blogging-site",
+  },
+  {
     title: "Full-Stack Todo app",
     description:
-      "React.js, Tailwind CSS, Express.js, Zod, Mongoose ODM, MongoDB.",
+      "React.js, Tailwind CSS, Express.js, Zod, Mongoos ODM, MongoDB.",
     img: todoImg,
-    link: "https://github.com/harshdetroja/fullstack-todo-app",
+    link: "https://github.com/harshdetroja/fullstack-blogging-site",
   },
   {
     title: "Spotify Stats",

@@ -70,16 +70,16 @@ export function ProblemsSolved() {
                 <LCchip
                   title={data["labels"][1]}
                   count={medium}
-                  color={"text-yellow-400"}
-                  border={colors[1]}
+                  color={"text-cyan-400"}
+                  border={colors[2]}
                 />
               </div>
               <div>
                 <LCchip
                   title={data["labels"][2]}
                   count={hard}
-                  color={"text-cyan-400"}
-                  border={colors[2]}
+                  color={"text-yellow-400"}
+                  border={colors[1]}
                 />
               </div>
             </div>
